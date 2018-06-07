@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\PhpUnitWatcher\Screens;
+namespace Lonnylot\PhpUnitWatcher\Screens;
 
 class FilterFileName extends Screen
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\PhpUnitWatcher\Screens;
+namespace Lonnylot\PhpUnitWatcher\Screens;
 
-use Spatie\PhpUnitWatcher\Terminal;
+use Lonnylot\PhpUnitWatcher\Terminal;
 
 abstract class Screen
 {
-    /** @var \Spatie\PhpUnitWatcher\Terminal */
+    /** @var \Lonnylot\PhpUnitWatcher\Terminal */
     protected $terminal;
 
     public function useTerminal(Terminal $terminal)

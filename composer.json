@@ -1,11 +1,11 @@
 {
-    "name": "spatie/phpunit-watcher",
-    "description": "Automatically rerun PHPUnit tests when source code changes",
+    "name": "lonnylot/dusk-watcher",
+    "description": "Automatically rerun Laravel Dusk tests when source code changes",
     "keywords": [
         "spatie",
-        "phpunit-watcher"
+        "dusk-watcher"
     ],
-    "homepage": "https://github.com/spatie/phpunit-watcher",
+    "homepage": "https://github.com/lonnylot/phpunit-watcher/tree/dusk",
     "license": "MIT",
     "authors": [
         {
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\PhpUnitWatcher\\": "src"
+            "Lonnylot\\PhpUnitWatcher\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\PhpUnitWatcher\\Test\\": "tests"
+            "Lonnylot\\PhpUnitWatcher\\Test\\": "tests"
         },
         "files": [
             "tests/helpers.php"

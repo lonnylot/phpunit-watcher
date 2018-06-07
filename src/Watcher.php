@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\PhpUnitWatcher;
+namespace Lonnylot\PhpUnitWatcher;
 
 use Clue\React\Stdio\Stdio;
 use React\EventLoop\Factory;
 use Symfony\Component\Finder\Finder;
-use Spatie\PhpUnitWatcher\Screens\Phpunit;
+use Lonnylot\PhpUnitWatcher\Screens\Phpunit;
 use Yosymfony\ResourceWatcher\ResourceWatcher;
 use Yosymfony\ResourceWatcher\ResourceCacheMemory;
 
@@ -17,7 +17,7 @@ class Watcher
     /** @var \React\EventLoop\LibEventLoop */
     protected $loop;
 
-    /** @var \Spatie\PhpUnitWatcher\Terminal */
+    /** @var \Lonnylot\PhpUnitWatcher\Terminal */
     protected $terminal;
 
     /** @var array */

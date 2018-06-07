@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\PhpUnitWatcher;
+namespace Lonnylot\PhpUnitWatcher;
 
 use Clue\React\Stdio\Stdio;
-use Spatie\PhpUnitWatcher\Screens\Screen;
+use Lonnylot\PhpUnitWatcher\Screens\Screen;
 use Symfony\Component\Console\Formatter\OutputFormatter;
 
 class Terminal
@@ -11,10 +11,10 @@ class Terminal
     /** @var \Clue\React\Stdio\Stdio */
     protected $io;
 
-    /** @var \Spatie\PhpUnitWatcher\Screens\Screen */
+    /** @var \Lonnylot\PhpUnitWatcher\Screens\Screen */
     protected $previousScreen = null;
 
-    /** @var \Spatie\PhpUnitWatcher\Screens\Screen */
+    /** @var \Lonnylot\PhpUnitWatcher\Screens\Screen */
     protected $currentScreen = null;
 
     public function __construct(Stdio $io)

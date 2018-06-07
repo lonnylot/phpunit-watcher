@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\PhpUnitWatcher\Exceptions;
+namespace Lonnylot\PhpUnitWatcher\Exceptions;
 
 use Exception;
 
