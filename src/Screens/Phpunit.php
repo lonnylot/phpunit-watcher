@@ -83,7 +83,8 @@ class Phpunit extends Screen
 
     protected function runTests()
     {
-        $result = (new Process("vendor/bin/phpunit {$this->phpunitArguments}"))
+        $processLocation = $this->
+        $result = (new Process("php artisan dusk {$this->phpunitArguments}"))
             ->setTty(true)
             ->run(function ($type, $line) {
                 echo $line;

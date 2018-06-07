@@ -47,6 +47,6 @@
         "sort-packages": true
     },
     "bin": [
-        "phpunit-watcher"
+        "dusk-watcher"
     ]
 }

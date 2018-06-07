@@ -64,7 +64,7 @@ class WatcherCommand extends Command
 
     protected function getConfigFileLocation()
     {
-        $configName = '.phpunit-watcher.yml';
+        $configName = '.dusk-watcher.yml';
 
         $configDirectory = getcwd();
 
